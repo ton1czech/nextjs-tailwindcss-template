@@ -1,14 +1,14 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
-      <Head>
-        <title>template</title>
-        <link rel='icon' href='' />
-      </Head>
+    <div className='grid h-screen place-content-center bg-blue-200'>
+      <h1 className='pb-8 text-5xl font-bold uppercase'>
+        <span className='text-blue-800'>tailwind</span> template for your{' '}
+        <span className='text-gray-600'>next.js</span> project
+      </h1>
+      <p className='text-2xl'>with configuration</p>
+      <p className='text-4xl'>ready to go!</p>
     </div>
   )
 }
